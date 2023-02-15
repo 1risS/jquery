@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=""utf-8>
+        <title>Demo</title>
+        <script src="https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+        <script src="./custom.js"></script>
+    </head>
+<body>
+    <style>
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between
+
+        }
+        .turnRed{
+            border: solid 1px black;
+            border-radius: 60px;
+            padding: 5px 10px 5px 10px;
+        }
+        .blur{
+            border: solid 1px black;
+            border-radius: 60px;
+            padding: 5px 10px 5px 10px;
+        }
+        .hidden{
+            border: solid 1px black;
+            border-radius: 60px;
+            padding: 5px 10px 5px 10px;
+        }
+        .onEnter{
+            color: aquamarine;
+            border: solid 1px aquamarine;
+            border-radius: 60px;
+            background-color:aquamarine;
+            padding: 5px 10px 5px 10px;
+        }
+    </style>
+<div class="wrapper">
+    <div class="turnRed"> Click me to turn red</div>
+    <div class="blur"> If you click me nothing will happen... unless you click twice! </div>
+    <div class="hidden" style="visibility: hidden">;-)</div>
+    <div class="onEnter"> magical things might happen...</div>
+</div>
+</body>
+</html>
